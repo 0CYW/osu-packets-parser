@@ -1,0 +1,46 @@
+{
+  "name": "osu-packets-parser",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tsup": "^8.3.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "osu-buffer": "^2.0.2"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "author": "0CYW",
+  "license": "MIT",
+  "description": "osu! (stable) bancho packets parser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0CYW/osu-packets-parser.git"
+  },
+  "keywords": [
+    "osu",
+    "osu-packet",
+    "bancho",
+    "banchopy",
+    "osu private servers",
+    "osu packets",
+    "osu parsing",
+    "osu game",
+    "osu-buffer"
+  ],
+  "bugs": {
+    "url": "https://github.com/0CYW/osu-packets-parser/issues"
+  },
+  "homepage": "https://github.com/0CYW/osu-packets-parser#readme"
+}
